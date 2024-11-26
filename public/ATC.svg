@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#e6e6e6" />
+  
+  <!-- Main Logo Container -->
+  <g transform="translate(100, 130)">
+    <!-- ATC Letters -->
+    <text x="0" y="0" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="#000000">
+      <tspan x="0" dy="0">A</tspan>
+      <tspan x="70" dy="0">T</tspan>
+      <tspan x="140" dy="0">C</tspan>
+    </text>
+    
+    <!-- Underline in South African Flag Colors -->
+    <g transform="translate(0, 20)">
+      <rect width="70" height="6" fill="#007a4d" />
+      <rect width="70" height="6" x="70" fill="#fcd116" />
+      <rect width="70" height="6" x="140" fill="#e03a3e" />
+    </g>
+  </g>
+  
+  <!-- Slogan in South African Flag Colors -->
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#007a4d">
+    Empowering Future Leaders
+  </text>
+</svg>

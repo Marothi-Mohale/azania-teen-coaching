@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#ffffff" />
+  
+  <!-- Main Logo Container -->
+  <g transform="translate(100, 130)">
+    <!-- ATC Letters -->
+    <text x="0" y="0" font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="#2ecc71">
+      <tspan x="0" dy="0">A</tspan>
+      <tspan x="70" dy="0">T</tspan>
+      <tspan x="140" dy="0">C</tspan>
+    </text>
+    
+    <!-- Underline -->
+    <line x1="0" y1="20" x2="210" y2="20" stroke="#f1c40f" stroke-width="6" />
+  </g>
+  
+  <!-- Slogan -->
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#000000">
+    Empowering Future Leaders
+  </text>
+</svg>
