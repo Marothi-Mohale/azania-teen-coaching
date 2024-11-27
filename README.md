@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Azania Teen Coaching
 
-## Getting Started
+Welcome to the **Azania Teen Coaching** repository! This project is a platform dedicated to empowering teenagers through personalized coaching, mentoring, and skill-building programs.
 
-First, run the development server:
+---
 
+## 🌟 **About the Project**
+Azania Teen Coaching aims to:
+- Help teenagers develop essential life skills.
+- Provide personalized coaching sessions tailored to their goals.
+- Connect teens with mentors who inspire and guide them.
+- Offer a safe, supportive, and motivating online environment.
+
+The website serves as the main interface where users can:
+- Learn about our programs and services.
+- Register for coaching sessions.
+- Access learning resources and tools.
+
+---
+
+## 🚀 **Features**
+- **User-Friendly Interface:** Easy navigation for teens and parents.
+- **Personalized Coaching Plans:** Tailored programs based on individual needs.
+- **Mentor Profiles:** Meet and connect with qualified coaches.
+- **Resource Library:** Access to articles, guides, and learning materials.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.
+
+---
+
+## 🛠️ **Technologies Used**
+- **Frontend:**
+  - HTML, CSS, JavaScript
+  - React.js for dynamic user experiences
+- **Backend:**
+  - Node.js with Express.js for server-side logic
+  - Firebase for database and user authentication
+- **Tools & Libraries:**
+  - npm for dependency management
+  - Tailwind CSS for styling
+
+---
+
+## 📝 **Installation Instructions**
+Follow these steps to set up the project on your local machine:
+
+### Prerequisites
+- Node.js and npm installed. [Download here](https://nodejs.org/).
+- Git installed. [Download here](https://git-scm.com/).
+
+### Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/Marothi-Mohale/azania-teen-coaching.git
+cd azania-teen-coaching
