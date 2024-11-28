@@ -2,13 +2,19 @@ import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../lib/firebase";
 
+// Define an interface for the service object
+interface Service {
+  name: string;
+  description: string;
+}
+
 export default function Home() {
-  const [services, setServices] = useState<any[]>([]);
+  const [services, setServices] = useState<Service[]>([]); // Use the Service interface
 
   useEffect(() => {
     const fetchServices = async () => {
       const querySnapshot = await getDocs(collection(db, "services"));
-      const services = querySnapshot.docs.map(doc => doc.data());
+      const services = querySnapshot.docs.map(doc => doc.data() as Service); // Cast to Service type
       setServices(services);
     };
     fetchServices();

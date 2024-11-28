@@ -106,7 +106,7 @@ export default function Home() {
               />
               <h3 className="text-2xl font-semibold mb-2">Talent Development</h3>
               <p className="text-gray-600">
-                Encouraging the discovery and nurturing of teens' innate talents.
+                Discover and develop your innate talents.
               </p>
             </div>
 
